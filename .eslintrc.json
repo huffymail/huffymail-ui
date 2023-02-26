@@ -1,12 +1,14 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "standard"
+    "standard",
+    "plugin:tailwindcss/recommended"
   ],
   "plugins": [
     "simple-import-sort"
   ],
   "rules": {
+    "react/jsx-sort-props": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"
   }
