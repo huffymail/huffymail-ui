@@ -6,6 +6,7 @@ export default function Page () {
   return (
     <section>
       <HeroSection/>
+      <FeaturesSection/>
     </section>
   )
 }
@@ -125,6 +126,95 @@ const HeroSection = () => {
                 </span>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+const FeaturesSection = () => {
+  return (
+    <section className="py-24">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold text-gray-700">
+            Features
+          </h2>
+        </div>
+
+        <div className="mt-24 lg:flex lg:items-center lg:justify-between">
+          <div className="lg:flex-1">
+            <img alt="Illustration for the feature." className="mx-auto max-h-96 w-auto"
+                 src="/illustration/widget-1-core.webp"/>
+          </div>
+
+          <div className="mt-12 lg:mt-0 lg:ml-12 lg:max-w-lg">
+            <div className="text-xs font-light uppercase text-gray-400">
+              A Minimal Theme
+            </div>
+
+            <div className="mt-1 text-3xl font-medium text-gray-700">
+              Cleanly designed
+            </div>
+
+            <div className="mt-4 h-1 w-24 rounded bg-emerald-200"/>
+
+            <div className="mt-4 text-gray-500">
+              Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit. Ex vidit fierent
+              hendrerit eum, sed stet periculis ut. Vis in probo decore labitur. Unum simul an vis, tale patrioque eos
+              ad, dicunt percipit ea nam. Vis dolor quidam assentior te, atomorum posidonium qui an.
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-24 lg:flex lg:items-center lg:justify-between">
+          <div className="lg:flex-1">
+            <img alt="Illustration for the feature." className="mx-auto max-h-96 w-auto"
+                 src="/illustration/widget-2-core.webp"/>
+          </div>
+
+          <div className="mt-12 lg:order-first lg:mt-0 lg:mr-12 lg:max-w-lg">
+            <div className="text-xs font-light uppercase text-gray-400">
+              A Powerful
+            </div>
+
+            <div className="mt-1 text-3xl font-medium text-gray-700">
+              Flex layout
+            </div>
+
+            <div className="mt-4 h-1 w-24 rounded bg-emerald-200"/>
+
+            <div className="mt-4 text-gray-500">
+              Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit. Ex vidit fierent
+              hendrerit eum, sed stet periculis ut. Vis in probo decore labitur. Unum simul an vis, tale patrioque eos
+              ad, dicunt percipit ea nam. Vis dolor quidam assentior te, atomorum posidonium qui an.
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-24 lg:flex lg:items-center lg:justify-between">
+          <div className="lg:flex-1">
+            <img alt="Illustration for the feature." className="mx-auto max-h-96 w-auto"
+                 src="/illustration/widget-3-core.webp"/>
+          </div>
+
+          <div className="mt-12 lg:mt-0 lg:ml-12 lg:max-w-lg">
+            <div className="text-xs font-light uppercase text-gray-400">
+              Many Extras
+            </div>
+
+            <div className="mt-1 text-3xl font-medium text-gray-700">
+              Included graphics assets
+            </div>
+
+            <div className="mt-4 h-1 w-24 rounded bg-emerald-200"/>
+
+            <div className="mt-4 text-gray-500">
+              Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum inermis iudicabit. Ex vidit fierent
+              hendrerit eum, sed stet periculis ut. Vis in probo decore labitur. Unum simul an vis, tale patrioque eos
+              ad, dicunt percipit ea nam. Vis dolor quidam assentior te, atomorum posidonium qui an.
             </div>
           </div>
         </div>
